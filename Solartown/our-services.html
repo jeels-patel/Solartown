@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./our-services.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600&display=swap"
+    />
+  </head>
+  <body>
+    <div class="our-services">
+      <section class="our-services-inner">
+        <div class="frame-group">
+          <div class="sub-heading-container">
+            <div class="sub-heading1">Our Services</div>
+          </div>
+          <h1 class="heading4">
+            Explore Our Range of Solar and Renewable Energy Services
+          </h1>
+        </div>
+      </section>
+      <section class="cards-container">
+        <div class="card-1">
+          <div class="gridtied-content">
+            <div class="grid-tied-systems-parent">
+              <h3 class="grid-tied-systems">Grid-tied Systems</h3>
+              <div class="gridtied-description">
+                A grid-tied system is, as we've covered above, linked to both
+                the solar panels and the main grid
+              </div>
+            </div>
+          </div>
+          <div class="image">
+            <div class="replace-this1"></div>
+            <img
+              class="download-1-icon"
+              loading="lazy"
+              alt=""
+              src="./public/download-1@2x.png"
+            />
+          </div>
+        </div>
+        <div class="off-grid-card">
+          <div class="card-2">
+            <div class="off-grid-nested">
+              <div class="off-grid-systems-parent">
+                <h3 class="grid-tied-systems">Off-Grid Systems</h3>
+                <div class="gridtied-description">
+                  Because an off-grid system is not connected to the power grid,
+                  it requires battery storage
+                </div>
+              </div>
+            </div>
+            <div class="image">
+              <div class="replace-this2"></div>
+              <img
+                class="off-grid-1-icon"
+                loading="lazy"
+                alt=""
+                src="./public/download-11@2x.png"
+              />
+            </div>
+          </div>
+          <div class="consulting-card">
+            <div class="card-3">
+              <div class="gridtied-content">
+                <div class="off-grid-systems-parent">
+                  <h3 class="consulting-services">Consulting Services</h3>
+                  <div class="gridtied-description">
+                    As a solar consultant, you help explain renewable energy
+                    systems and resources to potential customers
+                  </div>
+                </div>
+              </div>
+              <img
+                class="solar-consulting-1-icon"
+                alt=""
+                src="./public/solarconsulting-1@2x.png"
+              />
+            </div>
+            <div class="consulting-card-inner">
+              <button class="rectangle-group" id="groupButton">
+                <div class="frame-item"></div>
+                <div class="next1">Next</div>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="our-services-child"></div>
+    </div>
+
+    <script>
+      var groupButton = document.getElementById("groupButton");
+      if (groupButton) {
+        groupButton.addEventListener("click", function (e) {
+          window.location.href = "./our-projects.html";
+        });
+      }
+      </script>
+  </body>
+</html>

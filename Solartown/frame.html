@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./frame.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600&display=swap"
+    />
+  </head>
+  <body>
+    <div class="root">
+      <section class="header">
+        <div class="footer">
+          <div class="footer-content">
+            <div class="footer-navigation">
+              <div class="image-box-icon">
+                <img class="logo-icon" alt="" src="./public/logo@2x.png" />
+
+                <div class="text1">
+                  Aliquet dignissim erat habitasse aliquet tincidunt phasellus
+                  ultrices. Aenean sed elit mattis sagittis id velit sed
+                  scelerisque.
+                </div>
+                <div class="icon-box">
+                  <img
+                    class="icon-box-1"
+                    loading="lazy"
+                    alt=""
+                    src="./public/icon-box-1.svg"
+                  />
+
+                  <img
+                    class="icon-box-1"
+                    loading="lazy"
+                    alt=""
+                    src="./public/icon-box-2.svg"
+                  />
+
+                  <img
+                    class="icon-box-1"
+                    loading="lazy"
+                    alt=""
+                    src="./public/icon-box-3.svg"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="footer-links">
+              <div class="company">
+                <div class="heading1">Company</div>
+                <div class="navigation">
+                  <a class="home" id="homeText">Home</a>
+                  <a class="about-us1">About Us</a>
+                  <a class="services" id="servicesText">Services</a>
+                  <a class="projects" id="projectsText">Projects</a>
+                </div>
+              </div>
+              <div class="company">
+                <div class="heading2">Help</div>
+                <div class="navigation">
+                  <a class="customer-support">Customer Support</a>
+                  <div class="how-it-works">How It Works</div>
+                  <div class="terms-condition">Terms & Condition</div>
+                  <a class="privacy-policy">Privacy Policy</a>
+                </div>
+              </div>
+            </div>
+            <div class="subscribe">
+              <div class="heading3">Subscribe to Newsletter</div>
+              <div class="subscribe-form">
+                <div class="field">
+                  <div class="enter-your-email">Enter Your Email</div>
+                </div>
+                <div class="button">
+                  <div class="get-started">Subscribe</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="separator-parent">
+            <div class="separator"></div>
+            <div class="copyright">
+              <div class="copyright-2023">Copyright © 2024 Solartown</div>
+              <div class="designed-by-tokotema"></div>
+            </div>
+          </div>
+        </div>
+        <div class="content-placeholder">+91 72 40 40 22 22</div>
+        <div class="content-placeholder1">+91 72 40 40 55 55</div>
+        <img
+          class="solar-2-icon"
+          loading="lazy"
+          alt=""
+          src="./public/solar-2@2x.png"
+        />
+      </section>
+    </div>
+
+    <script>
+      var homeText = document.getElementById("homeText");
+      if (homeText) {
+        homeText.addEventListener("click", function (e) {
+          // Please sync "Frame 1" to the project
+        });
+      }
+      
+      var servicesText = document.getElementById("servicesText");
+      if (servicesText) {
+        servicesText.addEventListener("click", function (e) {
+          window.location.href = "./our-services.html";
+        });
+      }
+      
+      var projectsText = document.getElementById("projectsText");
+      if (projectsText) {
+        projectsText.addEventListener("click", function (e) {
+          window.location.href = "./our-projects.html";
+        });
+      }
+      </script>
+  </body>
+</html>

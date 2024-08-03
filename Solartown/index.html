@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600&display=swap"
+    />
+  </head>
+  <body>
+    <div class="about-us">
+      <header class="about-us-inner">
+        <div class="frame-parent">
+          <div class="sub-heading-wrapper">
+            <div class="sub-heading">About Us</div>
+          </div>
+          <h1 class="heading">Powering a Sustainable Future Together</h1>
+          <div class="text-wrapper">
+            <div class="text">
+              Invest in energy-efficient appliances, utilize smart power strips,
+              and adopt sustainable practices at home
+            </div>
+          </div>
+        </div>
+      </header>
+      <section class="box-1-parent">
+        <div class="box-1">
+          <div class="replace-this"></div>
+          <div class="title"></div>
+          <img
+            class="photovoltaic-solar-power-panel-icon"
+            loading="lazy"
+            alt=""
+            src="./public/photovoltaicsolarpowerpanelfieldgreencleanalternativepowerenergyconceptaigenerative@2x.png"
+          />
+
+          <h1 class="renewable">Renewable</h1>
+          <div class="renewable-description">
+            Renewable energy is energy derived from natural sources that are
+            replenished at a higher rate than they are consumed
+          </div>
+        </div>
+        <div class="box-2">
+          <div class="replcae-this"></div>
+          <div class="images-4-1-parent">
+            <img class="images-4-1" alt="" src="./public/images-4-1@2x.png" />
+
+            <h1 class="energy">Energy</h1>
+            <div class="solar-description">
+              Solar power is energy from the sun that is converted into thermal
+              or electrical energy
+            </div>
+          </div>
+        </div>
+        <div class="box-3-parent">
+          <div class="box-3">
+            <div class="replcae-this1"></div>
+            <img
+              class="d-bulb-with-energy-saving-proj-icon"
+              loading="lazy"
+              alt=""
+              src="./public/3dbulbwithenergysavingproject-1@2x.png"
+            />
+
+            <h1 class="future">Future</h1>
+            <div class="solar-description">
+              In 2025, renewables will become the largest source of electricity
+              generation
+            </div>
+          </div>
+          <div class="frame-wrapper">
+            <button class="rectangle-parent" id="groupButton">
+              <div class="frame-child"></div>
+              <div class="next">Next</div>
+            </button>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script>
+      var groupButton = document.getElementById("groupButton");
+      if (groupButton) {
+        groupButton.addEventListener("click", function (e) {
+          window.location.href = "./frame.html";
+        });
+      }
+      </script>
+  </body>
+</html>
